@@ -1,0 +1,9 @@
+{
+	"name": "DataFactoryForRepository",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "41f233fc-7ff2-4e5b-ad8e-7eb04584fdf1",
+		"tenantId": "e4e34038-ea1f-4882-b6e8-ccd776459ca0"
+	}
+}
