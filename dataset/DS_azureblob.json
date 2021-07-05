@@ -1,0 +1,57 @@
+{
+	"name": "DS_azureblob",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "namesdata.csv",
+				"folderPath": "input",
+				"container": "newcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Sno",
+				"type": "String"
+			},
+			{
+				"name": "name1",
+				"type": "String"
+			},
+			{
+				"name": "name2",
+				"type": "String"
+			},
+			{
+				"name": "name3",
+				"type": "String"
+			},
+			{
+				"name": "name4",
+				"type": "String"
+			},
+			{
+				"name": "name5",
+				"type": "String"
+			},
+			{
+				"name": "name6",
+				"type": "String"
+			},
+			{
+				"name": "name7",
+				"type": "String"
+			}
+		]
+	}
+}
